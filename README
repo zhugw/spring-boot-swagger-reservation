@@ -1,0 +1,18 @@
+主要用来演示用Spring boot开发一个web工程 以及如何集成swagger发布后端接口
+以及web集成测试示例 不同的profile的配置	
+业务很简单 就是用来统计每天晚上有哪些人订餐
+
+import this project to eclipse
+then just run SpringbootDemoApplication
+
+其他注意事项：
+使用了Java8
+用了lombok 省去了Entity中的getter/setter 但是需要安装一下 非常方便
+见http://jnb.ociweb.com/jnb/jnbJan2010.html#installation
+因为是demo使用了内存数据库h2
+
+h2 web console
+http://localhost:8080/h2-console/
+default jdbc url:
+jdbc:h2:mem:testdb
+
